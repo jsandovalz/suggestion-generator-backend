@@ -25,8 +25,12 @@ composer install
 cp .env.example .env
 php artisan key:generate
 ```
+### 4. Add in `backend/.env`:
+```bash
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
 
-### 4. Start the server
+### 5. Start the server
 
 ```bash
 php artisan serve
