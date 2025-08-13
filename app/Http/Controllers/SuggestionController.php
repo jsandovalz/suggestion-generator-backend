@@ -25,6 +25,7 @@ class SuggestionController extends Controller
        
         return response()->json(['suggestions' => $suggestions]);
     }
+    
     /**
      * Map prompt to predefined suggestions
      * 
